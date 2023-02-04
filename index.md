@@ -6,4 +6,115 @@ Assuntos:
 - Menu
 - Arrays
 
-<section>
+### O que são métodos e porquê utiliza-los?
+
+
+Um método é uma coleção de instruções para executar uma determinada tarefa ou operação. Nós escrevemos um método uma vez e o usamos várias vezes, sem que haja a necessidade de ficar reescrevendo o mesmo código. Os métodos são usados para alcançar a reutilização do código, além de também fornecer a fácil modificação e legibilidade do código, apenas adicionando ou removendo um pedaço de código.
+
+**O método é executado apenas quando o chamamos ou o invocamos.**
+
+Exemplo do dia a dia: 
+
+Todos os dias precisamos comer, dormir e fazer nossas necessidades.
+Imagine que para cada uma dessas ações o cérebro envia um comando para nosso corpo. O que é mais fácil e rápido para o cerebro: o corpo já saber o que fazer ou o corpo ter que todo dia ser ensinado como deve fazer tal ação?
+
+Vejamos isso em forma de codigo: 
+~~~Java
+public class CorpoHumano{
+
+	public static void main(String[] args) {
+        //dia 1
+	    comer(); //sempre que estiver com fome, só chamar o método comer() e nele já vai conter como comer
+
+        //dia 2
+        comer();
+	}
+
+	public static void comer(){
+	    
+	    String prato = "muita comida";
+	    
+	    if(prato == "muita comida"){
+	        System.out.println("pegar colher\ncolocar colher na boca\ntirar colher da boca\npegar mais comida");
+	    } else {
+	        System.out.println("estou satisfeite");
+	    }
+	   
+	}
+}
+~~~
+
+ou 
+
+~~~Java
+public class CorpoHumano{
+
+	public static void main(String[] args) {
+
+        //dia 1
+	    String prato = "muita comida";
+	    
+	    if(prato == "muita comida"){
+	        System.out.println("pegar colher\ncolocar colher na boca\ntirar colher da boca\npegar mais comida");
+	    } else {
+	        System.out.println("estou satisfeita");
+	    }
+
+	    //dia 2
+	    if(prato == "muita comida"){
+	        System.out.println("pegar colher\ncolocar colher na boca\ntirar colher da boca\npegar mais comida");
+	    } else {
+	        System.out.println("estou satisfeite");
+	    }
+    }
+}
+~~~
+
+Com certeza você achou o primeiro código a melhor forma para o seu corpo fazer uma ação.
+
+### Quando utilizá-los?
+
+Vejamos que no segundo código estamos o mesmo comando várias vezes, este é o sinal para utilizarmos um método!
+
+![](image.png)
+
+### Declarando Métodos
+
+A declaração de um metodo é bem simples.
+Veja o exemplo abaixo de um método de soma: 
+
+~~~Java
+public static int somar(int a, int b){
+    return a + b;
+}
+~~~
+
+
+OBS: **Todos os métodos que estamos estudando iniciarão com:**
+~~~java
+public static
+~~~
+Essas duas palavrinhas vocês não precisam se preocupar agora, mas para não deixar vocês por fora...
+
+**public:** Representa o tipo de visibilidade do método. Ele faz com que o método consiga ser acessado por qualquer classe.
+
+**static:** Serve para referenciar que o método podem ser acessados diretamente da definição da classe, sem precisar instanciar nenhum objeto.
+
+Ainda no mesmo exemplo, temos:
+
+~~~Java
+int somar(int a, int b){
+    return a + b
+}
+~~~
+**int:** está repesenta que esse método, obrigatoriamente, deverá retornar um número inteiro.
+Além de **int**, temos também:
+
+* double
+* String
+* boolean
+* float
+* long
+* entre outros. 
+
+Além desses, ainda existe o **void** que não retorna a nada, ou seja, este metodo não necessitar por a palavra **return**.
