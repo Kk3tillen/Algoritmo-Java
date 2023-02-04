@@ -1,3 +1,7 @@
-# Algoritmo
-## Revisão dos conteúdos de Algoritmo
-Esse é o site da monitoria de algoritmo
+# Revisão dos conteúdos de Algoritmo
+
+Assuntos:
+- Métodos
+- String
+- Menu
+- Arrays
