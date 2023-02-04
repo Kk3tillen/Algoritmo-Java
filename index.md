@@ -1,12 +1,13 @@
-## Revisão dos conteúdos de Algoritmo
+# Revisão dos conteúdos de Algoritmo
 
 Assuntos:
 - Métodos
 - String
 - Menu
 - Arrays
+  
 
-### O que são métodos e porquê utiliza-los?
+## O que são métodos e porquê utiliza-los?
 
 
 Um método é uma coleção de instruções para executar uma determinada tarefa ou operação. Nós escrevemos um método uma vez e o usamos várias vezes, sem que haja a necessidade de ficar reescrevendo o mesmo código. Os métodos são usados para alcançar a reutilização do código, além de também fornecer a fácil modificação e legibilidade do código, apenas adicionando ou removendo um pedaço de código.
@@ -72,13 +73,16 @@ public class CorpoHumano{
 
 Com certeza você achou o primeiro código a melhor forma para o seu corpo fazer uma ação.
 
-### Quando utilizá-los?
+
+## Quando utilizá-los?
 
 Vejamos que no segundo código estamos utilizando o mesmo comando várias vezes, este é o sinal para fazermos um método!
 
 ![](image.png)
 
-### Declarando Métodos
+
+## Declarando Métodos
+
 
 A declaração de um metodo é bem simples.
 Veja o exemplo abaixo de um método de soma: 
@@ -88,26 +92,30 @@ public static int somar(int a, int b){
     return a + b;
 }
 ~~~
+*Exemplo 1 - Método de soma*
 
+### Visibilidade
 
 OBS: **Todos os métodos que estamos estudando iniciarão com:**
+
 ~~~java
 public static
 ~~~
+
 Essas duas palavrinhas vocês não precisam se preocupar agora, mas para não deixar vocês por fora...
 
 **public:** Representa o tipo de visibilidade do método. Ele faz com que o método consiga ser acessado por qualquer classe.
 
 **static:** Serve para referenciar que o método podem ser acessados diretamente da definição da classe, sem precisar instanciar nenhum objeto.
 
-Ainda no mesmo exemplo, temos:
+### Retorno 
 
 ~~~Java
 int somar(int a, int b){
     return a + b
 }
 ~~~
-**int:** está repesenta que esse método, obrigatoriamente, deverá retornar um número inteiro.
+**int:** Está repesenta que esse método, obrigatoriamente, deverá retornar um número inteiro.
 Além de **int**, temos também:
 
 * double
@@ -118,3 +126,39 @@ Além de **int**, temos também:
 * entre outros. 
 
 Além desses, ainda existe o **void** que não retorna a nada, ou seja, este metodo não necessitar por a palavra **return**.
+
+
+### Nome do método
+
+**somar:** Representa o nome do método.
+
+Aqui vale ressaltar que os nomes dos métodos devem ser auto-explicativos, isto é, não faz sentido nomear de `comer` um método que te faz tomar banho.
+
+```Java
+public static void comer() {
+	System.out.println("Abrir choveiro");
+	System.out.println("Tomar um banho bom");
+}
+```
+Queeeee?!
+
+### Parâmetros
+
+Outra vantagem em utiliar métodos é que conseguimos gerar diferentes comportamentos de acordo com parâmetros informados. No *Exemplo 1* são definidos dois parâmetros:
+
+- **int a**: o primeiro parâmetro informado deverá ser um inteiro e será identificado como `a`
+- **int b**: o último parâmetro informado...
+
+De forma geral, ainda temos as seguintes características de parâmetros:
+
+- Os métodos podem possuir diversos parâmetros
+- É permitido definir parâmetros com diferentes tipos
+
+```java
+public static void main(String[] args) {
+	somar(6, 18);
+	comer(); // método sem parâmetro
+	removaTodosChars('o', "Calouro"); // diferentes tipos :)
+}
+```
+*Exemplo 2 - Passar parâmetros para métodos*
