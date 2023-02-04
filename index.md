@@ -1,7 +1,9 @@
-# Revisão dos conteúdos de Algoritmo
+## Revisão dos conteúdos de Algoritmo
 
 Assuntos:
 - Métodos
 - String
 - Menu
 - Arrays
+
+<section>
