@@ -1,14 +1,13 @@
-# Revisão dos conteúdos de Algoritmo
+---
+title: "Métodos"
+author: Kézia Lima
+date: 04/02/2023
+institute: IFRN@IFRN
+---
 
-Assuntos:
-- [Métodos](assuntos/metodos.md)
-- String
-- Menu
-- Arrays
-  
+# Métodos
 
 ## O que são métodos e porquê utiliza-los?
-
 
 Um método é uma coleção de instruções para executar uma determinada tarefa ou operação. Nós escrevemos um método uma vez e o usamos várias vezes, sem que haja a necessidade de ficar reescrevendo o mesmo código. Os métodos são usados para alcançar a reutilização do código, além de também fornecer a fácil modificação e legibilidade do código, apenas adicionando ou removendo um pedaço de código.
 
@@ -20,7 +19,7 @@ Todos os dias precisamos comer, dormir e fazer nossas necessidades.
 Imagine que para cada uma dessas ações o cérebro envia um comando para nosso corpo. O que é mais fácil e rápido para o cerebro: o corpo já saber o que fazer ou o corpo ter que todo dia ser ensinado como deve fazer tal ação?
 
 Vejamos isso em forma de codigo: 
-~~~Java
+```java
 public class CorpoHumano{
 
 	public static void main(String[] args) {
@@ -43,11 +42,11 @@ public class CorpoHumano{
 	   
 	}
 }
-~~~
+```
 
 ou 
 
-~~~Java
+```java
 public class CorpoHumano{
 
 	public static void main(String[] args) {
@@ -69,7 +68,7 @@ public class CorpoHumano{
 	    }
     }
 }
-~~~
+```
 
 Com certeza você achou o primeiro código a melhor forma para o seu corpo fazer uma ação.
 
@@ -87,20 +86,20 @@ Vejamos que no segundo código estamos utilizando o mesmo comando várias vezes,
 A declaração de um metodo é bem simples.
 Veja o exemplo abaixo de um método de soma: 
 
-~~~Java
+```java
 public static int somar(int a, int b){
     return a + b;
 }
-~~~
+```
 *Exemplo 1 - Método de soma*
 
 ### Visibilidade
 
 OBS: **Todos os métodos que estamos estudando iniciarão com:**
 
-~~~java
+```java
 public static
-~~~
+```
 
 Essas duas palavrinhas vocês não precisam se preocupar agora, mas para não deixar vocês por fora...
 
@@ -110,11 +109,11 @@ Essas duas palavrinhas vocês não precisam se preocupar agora, mas para não de
 
 ### Retorno 
 
-~~~Java
+```java
 int somar(int a, int b){
     return a + b
 }
-~~~
+```
 **int:** Está repesenta que esse método, obrigatoriamente, deverá retornar um número inteiro.
 Além de **int**, temos também:
 
@@ -134,7 +133,7 @@ Além desses, ainda existe o **void** que não retorna a nada, ou seja, este met
 
 Aqui vale ressaltar que os nomes dos métodos devem ser auto-explicativos, isto é, não faz sentido nomear de `comer` um método que te faz tomar banho.
 
-```Java
+```java
 public static void comer() {
 	System.out.println("Abrir choveiro");
 	System.out.println("Tomar um banho bom");
