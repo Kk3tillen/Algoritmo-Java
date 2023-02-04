@@ -74,7 +74,7 @@ Com certeza você achou o primeiro código a melhor forma para o seu corpo fazer
 
 ### Quando utilizá-los?
 
-Vejamos que no segundo código estamos o mesmo comando várias vezes, este é o sinal para utilizarmos um método!
+Vejamos que no segundo código estamos utilizando o mesmo comando várias vezes, este é o sinal para fazermos um método!
 
 ![](image.png)
 
