@@ -1,7 +1,7 @@
 # Revisão dos conteúdos de Algoritmo
 
 Assuntos:
-- [Métodos](metodos.md)
+- [Métodos](assuntos/metodos.md)
 - String
 - Menu
 - Arrays
