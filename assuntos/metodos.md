@@ -164,7 +164,7 @@ public static void main(String[] args) {
 
 ____
 
-Questão para treinar:
+Questões para treinar:
 
 * [Soma Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
 

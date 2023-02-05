@@ -122,4 +122,4 @@ HELLO WORLD
 hello world
 ```
 
-[clique aqui para ver mais exemplos](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+[clique aqui para ver todos os métodos](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)

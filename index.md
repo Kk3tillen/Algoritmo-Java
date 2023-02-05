@@ -3,6 +3,6 @@
 Assuntos:
 - [Métodos estáticos](assuntos/metodos.md)
 - [Métodos String](assuntos/string.md)
-- Menu
+- [Menu](assuntos/menu.md)
 - Arrays
   
