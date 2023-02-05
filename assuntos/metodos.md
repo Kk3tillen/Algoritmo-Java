@@ -161,3 +161,15 @@ public static void main(String[] args) {
 }
 ```
 *Exemplo 2 - Passar parâmetros para métodos*
+
+____
+
+Questão para treinar:
+
+* [Soma Simples](https://www.beecrowd.com.br/judge/pt/problems/view/1003)
+
+* [O Maior](https://www.beecrowd.com.br/judge/pt/problems/view/1013)
+
+* [Formula de Bhaskara](https://www.beecrowd.com.br/judge/pt/problems/view/1036)
+
+**Façam as questões usando métodos**
