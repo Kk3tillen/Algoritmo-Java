@@ -123,3 +123,5 @@ Nessas classes eu sempre irei precisar colocar(PEOO):
         LEMBREM DE FECHAR AS CHAVINHAS!!!!
 
 - [Como fazer um ArrayList (uma lista de alguma coisa)](../assuntos/listas.md)
+
+- [Java e HTML](../htmlejava.md)
