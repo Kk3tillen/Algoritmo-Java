@@ -22,3 +22,13 @@ Tipos de dados:
     - Double
     - String
     - Flout e entre outros.
+
+Metodos do ArrayList:
+
+    - NomeDaLista.add(objetoQueQueroAdicionarALista);
+    - NomeDaLista.remove(posiçaoDoObjetoNaLista  ou o objeto);
+    - NomeDaLista.contains(objetoQueQueroSaberSeTemNaLista);
+    - NomeDaLista.clear(); //Remove tudo que tiver na lista
+    - NomeDaLista.get(posiçãoDoObjetoQueEuQueroPegar);
+    - NomeDaLista.indexOf(DizAPosiçaoDeUmObjExpecifico);  
+    - NomeDaLista.size(); //Me diz o tamanho da minha lista
