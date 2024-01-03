@@ -30,6 +30,7 @@ Após exercitarmos o pensamento, vamos criar nossas classes seguindo a ideia de:
 Nessas classes eu sempre irei precisar colocar(PEOO):
 
 * **Todos os atributos**
+
     Declarando um atributo:
 
         Private tipo Atributo;

@@ -8,5 +8,6 @@ Assuntos:
 - [Métodos estáticos](assuntos/metodos.md)
 - [Métodos String](assuntos/string.md)
 - [Menu](assuntos/menu.md)
+- [PHP](assuntos/criandoClassePHP.md)
 - Arrays
   
