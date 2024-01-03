@@ -1,10 +1,11 @@
 # Veja aqui como fazer uma lista
 
 Existem vários tipos diferentes de listas
-    - mep
-    - ArrayList
-    - List
-    - setList
+
+        - mep
+        - ArrayList
+        - List
+        - setList
 
 Mas a que vamos utilizar é o ArrayList.
 
