@@ -1,4 +1,4 @@
-# Veja aqui como fazer uma lista
+# E como é e como funciona um ArrayList?
 
 Existem vários tipos diferentes de listas
 
@@ -9,22 +9,42 @@ Existem vários tipos diferentes de listas
 
 Mas a que vamos utilizar é o ArrayList.
 
-Declarando um ArrayList:
+## O que é um ArrayList?
+
+O ArrayList funciona de maneira semelhante a um array normal, mas com uma diferença fundamental: em um array simples, é necessário definir a quantidade de posições antecipadamente, enquanto no ArrayList podemos adicionar infinitas posições sem precisar defini-las previamente. 
+
+## Como funciona e como fazer?
+
+Inicialmente é importante declaramos o nosso ArrayList e importamos as bibliotecas para que o nosso Array funcione de maneira correta.
+
+* Declarando um ArrayList:
 
         ArrayList<TipoDeDado> NomeDoQueTeráNaLista = new ArrayList<>();
-    
-ou
+    ou
 
         List<TipoDeDado> NomeDoQueTeráNaLista = new ArrayList<>();
 
-Tipos de dados: 
+* Adicionando as importações necessárias:
 
+        import java.util.ArrayList;
+        import java.util.List;
+
+As importações precisão ser feitas na primeira linha do nosso arquivo!!
+
+Exemplo: 
+![](../importArrayList.png)
+
+### Principais tipos de dados: 
     - Integer
     - Double
     - String
-    - Flout e entre outros.
+    - Flout
 
-Metodos do ArrayList:
+Futuramente veremos que poderemos criar classes que podem também se tornar um tipo de dado.
+
+
+### Alguns métodos mais usados do ArrayList:
+
 
     - NomeDaLista.add(objetoQueQueroAdicionarALista);
     - NomeDaLista.remove(posiçaoDoObjetoNaLista  ou o objeto);

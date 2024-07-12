@@ -8,12 +8,12 @@ institute: IFRN@IFRN
 # Métodos String
 
 Os métodos String servem para a manipulação de Strings.
-Quando pensarmos em uma **String** devemos pensar sempre em um array/vetor. Cada letra está em um posição.
+Quando pensarmos em uma **String** devemos pensar sempre em um array/vetor. Cada letra possui uma posição posição.
 
 
 ![](../vetor.png)
 
-Aqui vai o exemplo de alguns métodos:
+Aqui vai o exemplo de alguns métodos Strings em Java:
 
 ## charAt()
 
