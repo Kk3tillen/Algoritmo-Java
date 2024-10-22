@@ -6,7 +6,7 @@ Imagine um retângulo....
 conseguiu imaginar? 
 
 caso não, aqui vai uma imagem:
-![](.../img/array.png)
+![](../img/array.png)
 
 Imagine agora que colocamos várias divisórias nesse retângulo:
 ![](../img/arrayPosicoes.png)
@@ -25,7 +25,7 @@ Cada posição podemos armazenar algum tipo de informação. **Vale ressaltar qu
     - Flout
 
 ### Exemplo de um Array de números:
-![](.../img/image.png)
+![](../img/image.png)
 
 No exemplo acima temos as duas formas de declaramos um array.
 
