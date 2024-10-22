@@ -77,7 +77,7 @@ Com certeza você achou o primeiro código a melhor forma para o seu corpo fazer
 
 Vejamos que no segundo código estamos utilizando o mesmo comando várias vezes, este é o sinal para fazermos um método!
 
-![](image.png)
+![](../img/image.png)
 
 
 ## Declarando Métodos
