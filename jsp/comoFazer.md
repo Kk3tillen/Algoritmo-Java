@@ -25,7 +25,7 @@ Após exercitarmos o pensamento, vamos criar nossas classes seguindo a ideia de:
 
 **IMPORTANTE LEMBRAR**
 
-![](../notacao-de-diagrama-de-classe-3.jpg)
+![](../img/notacao-de-diagrama-de-classe-3.jpg)
 
 Nessas classes eu sempre irei precisar colocar(PEOO):
 

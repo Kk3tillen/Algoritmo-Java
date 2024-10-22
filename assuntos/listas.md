@@ -32,7 +32,7 @@ Inicialmente é importante declaramos o nosso ArrayList e importamos as bibliote
 As importações precisão ser feitas na primeira linha do nosso arquivo!!
 
 Exemplo: 
-![](../importArrayList.png)
+![](../img/importArrayList.png)
 
 ### Principais tipos de dados: 
     - Integer
